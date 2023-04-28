@@ -1,0 +1,16 @@
+table {
+	border: 10px solid khaki;
+	}
+td:hover {
+	background-color: lawngreen;
+	color: black;
+	}
+tr, th {
+	background-color: black;
+	color: darkmagenta;
+	}
+tr, td {
+	background-color: floralwhite;
+	color: darkorange;
+	}
+	

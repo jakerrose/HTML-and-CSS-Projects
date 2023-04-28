@@ -1,0 +1,13 @@
+p{
+	color: coral;
+	background: chocolate;
+	font-size: 100px;
+	text-align: center;
+	text-shadow: 2px 2px #000000;
+}
+ol{
+	list-style-type: roman;
+}
+ul{
+	list-style-type: square;
+}
