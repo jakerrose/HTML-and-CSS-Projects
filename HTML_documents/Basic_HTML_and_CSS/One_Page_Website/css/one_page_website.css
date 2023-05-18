@@ -1,0 +1,41 @@
+h2 {
+    text-align: center;
+    font-family: Helvetica;
+    color: rgb(236, 223, 223);
+    font-size: 30px;
+    background-color: black;
+}
+
+p {
+    text-align: center;
+    font-family: Helvetica;
+    color: rgb(236, 223, 223);
+    font-size: 20px;
+    background-color: black;
+}
+
+a {
+    color: white;
+    font-size: 50px;
+    font-family: "Helvetica";
+}
+
+body {
+    background-image: url("https://f4.bcbits.com/img/0021791782_130.jpg");
+}
+img {
+    width: 100%;
+}
+input[type=text] {
+    width: 50%;
+    height: 50%;
+    padding: 12px 20px;
+    border: 2 px;
+    border-color: silver;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+input[name=message] {
+    height: 100px;
+}
