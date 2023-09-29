@@ -14,5 +14,5 @@ Used bootstrap elements to create a website for a local movie theater.
 ### Final Challenge:
 Here I experimented and got familiar with image filters, tables, and looping video. I added an overlay to the image and video to create text that eases in on top.
 
-### Project:
+### The Space Station website:
 I recreated a complex website for a space flight company with a nine image gallery and contact form.
