@@ -129,8 +129,7 @@
 											<!--Contact form -->
 											<div id="contact">
 												<h2>For booking and other inquiries, use the contact form below</h2>
-												<form name="myForm" action="https://formspree.io/f/mnqyreql" method="post"
-												onsubmit="return validateForm()">
+												<form action="action_page.php">
 													<p><label for="name">Name</label>
 														<br>
 														<input type="text" id="name" name="name"
@@ -140,11 +139,6 @@
 														<br>
 														<input type="text" id="name" name="email"
 															placeholder="Your email">
-														<br>
-														<label for="phonenumber">Phone Number</label>
-														<br>
-														<input type="text" id="phonenumber" name="phonenumber"
-															placeholder="Phone number">
 														<br>
 														<label for="name">Message</label>
 														<br>
@@ -156,20 +150,7 @@
 												</form>
 											</div>
 											<!--End contact -->
-											<!---popup contact form-->
-											<button class="open-button" onclick="openForm()">Click to subscribe!</button>
-											<div class="form-popup" id="myForm">
-												<form action="https://formspree.io/f/mnqyreql" class="form-container">
-													<h1>Click here to subscribe!</h1>
-													<label for="email"><b>Email</b></label>
-													<input type="text" placeholder="Enter your email to stay up to date!" name="email">
-													<button type="submit" class="btn">Submit</button>
-													<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-												</form>
-											</div>
 
-											<br>
-											<br>	
 											<br>
 											<br>
 											<!-- Nav -->

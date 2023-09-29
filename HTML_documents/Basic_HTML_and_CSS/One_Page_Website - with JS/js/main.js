@@ -32,21 +32,3 @@ function showSlides(n) {
     dots[slideIndex - 1].className += " active";
     captionText.innerHTML = dots[slideIndex - 1].alt;
 }
-//removes fade-out effect
-document.body.classList.add('fade-out');
-window.addEventListener('DOMContentLoaded', () => {
-    document.body.classList.remove('fade-out');
-});
-function validateForm() {
-    let x = document.forms["myForm"]["name"].value;
-    if (x == "") {
-        alert("Give me your name!");
-        return false;
-    }
-}
-function openForm() {
-    document.getElementById("myForm").style.display = "block";
-}
-function closeForm() {
-    document.getElementById("myForm").style.display = "none";
-}

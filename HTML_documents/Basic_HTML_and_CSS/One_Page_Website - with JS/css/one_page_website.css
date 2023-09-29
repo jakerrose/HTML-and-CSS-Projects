@@ -11,7 +11,7 @@ p {
     font-family: Helvetica;
     color: rgb(236, 223, 223);
     font-size: 20px;
-    background-color: black;  
+    background-color: black;
 }
 
 a {
@@ -22,16 +22,7 @@ a {
 
 body {
     background-image: url("https://f4.bcbits.com/img/0021791782_130.jpg");
-    /* adds fade in effect*/
-        opacity: 1;
-        transition: 3s opacity;
-        }
-    
-        body.fade-out {
-            opacity: 0;
-            transition: none;
-        }
-
+}
 
 input[type=text] {
     width: 50%;
@@ -167,79 +158,7 @@ img.demo {
 }
 img.hover-shadow {
     transition: .3s;
-    animation: zoominoutsinglefeatured 15s forwards;
 }
 .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-.open-button {
-    background-color:aqua;
-    color: white;
-    padding: 16px 20px;
-    border: none;
-    cursor: pointer;
-    opacity: .8;
-    position: fixed;
-    bottom: 23px;
-    right: 28px;
-    width: 280px;
-}
-/*popup form, hidden by default */
-.form-popup {
-    display: none;
-    position: fixed;
-    bottom: 0;
-    right: 15px;
-    border: 3px solid #f1f1f1;
-    z-index: 9;
-}
-.form-container {
-    max-width: 300px;
-    padding: 10px;
-    background-color: white;
-}
-.form-container input[type=text] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    border: none;
-    background: #f1f1f1;
-}
-.form-container input[type=text]:focus {
-    background-color: #ddd;
-    outline: none;
-}
-.form-container .btn {
-    background-color: #04AA6D;
-    color: white;
-    padding: 16px 20px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    margin-bottom: 10px;
-    opacity: .8;
-}
-nav {
-    position: relative;
-    animation: mymove 5s;
-}  
-
-@keyframes mymove {
-    from {top:200px;}
-    to {top: 0px;}
-}
-
-@keyframes zoominoutsinglefeatured {
-    0% {
-        transform: scale(1,1);
-    }
-    50% {
-        transform: scale(1.2, 1.2);
-    }
-    100% {
-        transform: scale(1,1);
-    }
-}
-html {
-    scroll-behavior: smooth;
 }
